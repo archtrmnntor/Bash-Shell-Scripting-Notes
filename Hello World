@@ -1,0 +1,27 @@
+.sh is the bash shell extension 
+
+-----------------------------------------------------------------------------
+echo  $SHELL
+## this command actually tells us which shell we are currently using
+which bash 
+##this will tell what to do to runt he bash shell as the current shell
+chmod  +x newscript.sh
+## this command is to change the permission to the executable permission 
+./myscript.sh
+## this is the method to run the bash file 
+cat myscript.sh
+## by cat command you can read a file 
+nano myscritp.sh
+## by nano command you can create a file and edit the file same time 
+pwd 
+## pwd is the command which is used to print hte current working directory 
+#!/bin/bash
+## this is called shebang or hashbang , it used to make idetify that its a bash file and should be running in the bash formate 
+  --shebang hashbang
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+#!/bin/bash
+ehco " hello world "
+echo " This is my current working directory "
+pwd 
+-----------------------------------------------------------------------------------------------
