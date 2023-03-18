@@ -1,0 +1,41 @@
+myname=”JAY”
+##here we are declaring the variable myname=jay 
+ehco myname
+##for printing the variable we have to use $ sign befire variable name other wise it will lead to give error 
+echo $myname
+##here is the way you can print the defined variable 
+echo " Hello , my name is $myname "
+## we have to use the double cot to eco the variable 
+echo ' Hello , my name is $myname '
+##otherwise it will print variable as text statements
+echo 'I\'m $myage year old'
+## We can use \ sign to ignore in between  signs which we want
+files=$(ls)
+##this we we can store the output of the command in the vairable name 
+date
+##date is a pre defined variable 
+env 
+##by this command we can print out all the variable which are already defined 
+
+------------------------------------------------------------------------------------------------------------
+
+#!/bin/bash 
+
+
+date 
+echo "Hello world " 
+myname="Jay"
+myage="40"
+echo " hello  my name is  $myname ."
+echo " I m $myage year olg "
+word="fun"
+echo "Video game is $word"
+echo "sunny days are $word"
+echo "you  loog so $word"
+now=$(date)
+echo $now
+name="hitesh sharma"
+echo "Hello World"
+echo " The system time and date is :"
+echo $now
+echo "Your username is : $USER"
